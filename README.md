@@ -1,5 +1,5 @@
 # Viu
-experiment simple pattern with swiftUI View
+experiment simple pattern with swiftUI View and combine API for simplify code
 
 # Architecture
 
