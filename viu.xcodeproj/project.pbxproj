@@ -30,6 +30,8 @@
 		D94A929728AB775B00844BD0 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94A929628AB775B00844BD0 /* HomeViewModel.swift */; };
 		D94A929A28AB88F700844BD0 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94A929928AB88F700844BD0 /* DetailView.swift */; };
 		D94A929C28AB89DB00844BD0 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94A929B28AB89DB00844BD0 /* DetailViewModel.swift */; };
+		D94A929E28ABFE1900844BD0 /* PhotoAccessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94A929D28ABFE1900844BD0 /* PhotoAccessTests.swift */; };
+		D94A92A028ABFF5700844BD0 /* TryTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94A929F28ABFF5700844BD0 /* TryTesting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,8 @@
 		D94A929628AB775B00844BD0 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		D94A929928AB88F700844BD0 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		D94A929B28AB89DB00844BD0 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		D94A929D28ABFE1900844BD0 /* PhotoAccessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAccessTests.swift; sourceTree = "<group>"; };
+		D94A929F28ABFF5700844BD0 /* TryTesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryTesting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,7 @@
 				D94A926B28AB39DD00844BD0 /* Assets */,
 				D94A926A28AB39AA00844BD0 /* AppDelegate */,
 				D94A924828AB399000844BD0 /* Info.plist */,
+				D94A929F28ABFF5700844BD0 /* TryTesting.swift */,
 			);
 			path = viu;
 			sourceTree = "<group>";
@@ -200,6 +205,7 @@
 			isa = PBXGroup;
 			children = (
 				D94A928428AB4B9300844BD0 /* LoginServiceTests.swift */,
+				D94A929D28ABFE1900844BD0 /* PhotoAccessTests.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -372,6 +378,7 @@
 				D94A923D28AB398D00844BD0 /* SceneDelegate.swift in Sources */,
 				D94A929528AB773500844BD0 /* HomeHostingViewController.swift in Sources */,
 				D94A927D28AB48E700844BD0 /* LoginService.swift in Sources */,
+				D94A92A028ABFF5700844BD0 /* TryTesting.swift in Sources */,
 				D94A928328AB4B6E00844BD0 /* BaseResponse.swift in Sources */,
 				D94A929728AB775B00844BD0 /* HomeViewModel.swift in Sources */,
 				D94A928828AB61D700844BD0 /* MainCoordinator.swift in Sources */,
@@ -384,6 +391,7 @@
 			files = (
 				D94A927828AB43B200844BD0 /* NetworkHelperTests.swift in Sources */,
 				D94A927A28AB43F700844BD0 /* SpyUrlSession.swift in Sources */,
+				D94A929E28ABFE1900844BD0 /* PhotoAccessTests.swift in Sources */,
 				D94A928528AB4B9300844BD0 /* LoginServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -468,7 +476,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -522,7 +530,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

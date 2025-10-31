@@ -23,7 +23,6 @@ struct HomeServiceImpl: HomeService {
         let url = "https://devel.bebasbayar.com/web/test_programmer.php"
         network.call(urlString: url, httpMethod: .get, body: nil) { response in
             guard let response = response else { return }
-            print(response)
             var data: [HomeElement] = []
             for values in response {
                 for item in values.value {
